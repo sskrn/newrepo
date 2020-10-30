@@ -1,1 +1,116 @@
-<mxfile host="app.diagrams.net" modified="2020-10-30T18:39:34.529Z" agent="5.0 (X11)" version="13.8.8" etag="Te4xf7FOPYTf19qg01lQ" type="github"><diagram id="NqesPs9HmWozUNlQ7Jwv">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-10-30T18:54:15.490Z" agent="5.0 (X11)" etag="PHo1Cia6g0KyCxK6RMG4" version="13.8.8" type="github">
+  <diagram id="NqesPs9HmWozUNlQ7Jwv" name="Page-1">
+    <mxGraphModel dx="1030" dy="624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-1" target="F2qDoGriFmTC-fSbWp1_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-1" value="Start/Boot" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-2" target="F2qDoGriFmTC-fSbWp1_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-2" value="Auto start service file " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-4" target="F2qDoGriFmTC-fSbWp1_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-4" value="Python script runs with saved parameter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-6" target="F2qDoGriFmTC-fSbWp1_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-6" value="raspi-gatt-server starts with UART Services" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-8" target="F2qDoGriFmTC-fSbWp1_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-8" target="F2qDoGriFmTC-fSbWp1_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-8" value="data == JSON string?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="670" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-9" target="F2qDoGriFmTC-fSbWp1_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-9" value="Apps connect and Input Parameter Data" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="520" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-12" target="F2qDoGriFmTC-fSbWp1_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-12" value="Parse JSON parameter SSID and Password " style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-14" value="Create wpa_supp string" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-18" target="F2qDoGriFmTC-fSbWp1_-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="890" />
+              <mxPoint x="320" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-18" value="data == save command?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="830" width="130" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-20" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="700" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-21" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="790" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-22" target="F2qDoGriFmTC-fSbWp1_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-22" value="create wpa_supplicant.conf file" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-23" target="F2qDoGriFmTC-fSbWp1_-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-23" value="Copy the conf to /etc/wpa_supplicant/ directory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F2qDoGriFmTC-fSbWp1_-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="109" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="109" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-26" value="Reboot system" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="960" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-30" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="860" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="F2qDoGriFmTC-fSbWp1_-31" value="N" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="860" width="20" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
